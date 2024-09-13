@@ -1,8 +1,8 @@
-function isLegal(age:number)
+function legalAge(age:number)
 {
     if(age > 18) return true;
     else return false;
 }
 
-let x = isLegal(15);
+let x = legalAge(15);
 console.log(x);

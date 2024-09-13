@@ -7,7 +7,7 @@ function isLegal(user: {
     else return false;
 }
 
-function greet(user: {
+function gre(user: {
     firstName: string,
     lastName: string,
     age: number
@@ -23,8 +23,7 @@ const isUserLegal = isLegal({
 });
 
 console.log(isUserLegal); 
-
-greet({
+ gre({
     firstName: "Sunny",
     lastName: "Kumar",
     age: 19

@@ -1,9 +1,9 @@
 "use strict";
-function isLegal(age) {
+function legalAge(age) {
     if (age > 18)
         return true;
     else
         return false;
 }
-let x = isLegal(15);
+let x = legalAge(15);
 console.log(x);
